@@ -1,0 +1,72 @@
+{
+  "id": "root",
+  "name": "Biblioteca",
+  "type": "folder",
+  "parent": null,
+  "metadata": {},
+  "children": [
+    {
+      "id": "cat1",
+      "name": "Literatura",
+      "type": "folder",
+      "parent": "root",
+      "metadata": {},
+      "children": [
+        {
+          "id": "subcat1",
+          "name": "Novela",
+          "type": "folder",
+          "parent": "cat1",
+          "metadata": {},
+          "children": [
+            {
+              "id": "book1",
+              "name": "Cien años de soledad",
+              "type": "book",
+              "parent": "subcat1",
+              "metadata": {
+                "author": "Gabriel García Márquez",
+                "year": 1967,
+                "description": "Obra cumbre del realismo mágico",
+                "category": "Novela",
+                "driveLink": "https://drive.google.com/file/d/example1"
+              },
+              "children": null
+            }
+          ]
+        },
+        {
+          "id": "subcat2",
+          "name": "Poesía",
+          "type": "folder",
+          "parent": "cat1",
+          "metadata": {},
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "cat2",
+      "name": "Ciencias",
+      "type": "folder",
+      "parent": "root",
+      "metadata": {},
+      "children": [
+        {
+          "id": "book2",
+          "name": "Breve historia del tiempo",
+          "type": "book",
+          "parent": "cat2",
+          "metadata": {
+            "author": "Stephen Hawking",
+            "year": 1988,
+            "description": "Explicación sobre el tiempo y el universo",
+            "category": "Ciencia",
+            "driveLink": "https://drive.google.com/file/d/example2"
+          },
+          "children": null
+        }
+      ]
+    }
+  ]
+}
